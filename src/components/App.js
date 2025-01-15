@@ -14,7 +14,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home title="Welcome to Red30 Tech" />} />
+        <Route path="/" element={<Home title="Home" />} />
         <Route path="categories" element={<Categories />}>
           <Route path=":catId" element={<Category />}>
           <Route path=":sessionId" element={<Session />}/>

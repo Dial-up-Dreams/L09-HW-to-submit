@@ -1,6 +1,5 @@
 import featImg from "../assets/img.main.jpg";
 
-//incomplete - need to add and link image
 
 export default function Home({ title }) {
   return (
